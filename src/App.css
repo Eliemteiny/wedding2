@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.slide-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 1s ease-in-out;
+}
